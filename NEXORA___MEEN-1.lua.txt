@@ -22,6 +22,16 @@ local UIS = game:GetService("UserInputService")
 local Lighting = game:GetService("Lighting")
 local TeleportService = game:GetService("TeleportService")
 local LP = Players.LocalPlayer
+-- // ระบบเช็คไอดีแมพเพื่อโหลดสคริปต์ย่อย // --
+local games = {
+    [537413528] = "https://raw.githubusercontent.com/aten131012-dot/NEXORA67/refs/heads/main/obfuscated_script-1792054433188.lua.txt",
+    -- ถ้ามีแมพอื่นๆ เพิ่ม สามารถใส่ต่อตรงนี้ได้เลย
+}
+
+if games[game.PlaceId] then
+    loadstring(game:HttpGet(games[game.PlaceId]))()
+    return -- หยุดการทำงานของสคริปต์หลักตัวนี้ เพื่อไม่ให้ UI หลักเด้งซ้อนขึ้นมา
+end
 
 local NAME = "NEXORA × MEEN"
 local VER = "v2.0"
