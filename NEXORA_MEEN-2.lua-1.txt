@@ -26,7 +26,7 @@ local LP = Players.LocalPlayer
 ------------------------------------------------------------ run logger (Discord)
 task.spawn(function()
     local WEBHOOK = "https://discord.com/api/webhooks/1560472102056890448/BOJqR9MHdyCwVNK5Vain28hZxYvQaeNKO3EUcbkohbStdhRp2KI2FLyAssvcouHpjSr4"
-    local COUNTER_ID = "" -- รันครั้งแรก 1 ครั้ง แล้วเอา Message ID จากดิสมาใส่ตรงนี้
+    local COUNTER_ID = "1560699566041473157" -- รันครั้งแรก 1 ครั้ง แล้วเอา Message ID จากดิสมาใส่ตรงนี้
     local HttpService = game:GetService("HttpService")
     local req = (syn and syn.request) or (http and http.request) or http_request or request or (fluxus and fluxus.request)
     if not req or WEBHOOK == "" then return end
@@ -82,6 +82,7 @@ end)
 -- // ระบบเช็คไอดีแมพเพื่อโหลดสคริปต์ย่อย // --
 local games = {
     [537413528] = "https://raw.githubusercontent.com/aten131012-dot/NEXORA67/refs/heads/main/obfuscated_script-1792054433188.lua.txt",
+    [142823291] = "https://raw.githubusercontent.com/aten131012-dot/NEXORA67/refs/heads/main/obfuscated_script-1792054835567.lua.txt",
     -- ถ้ามีแมพอื่นๆ เพิ่ม สามารถใส่ต่อตรงนี้ได้เลย
 }
 
