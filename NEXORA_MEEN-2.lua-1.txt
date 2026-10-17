@@ -86,6 +86,7 @@ local games = {
     [2753915549] = "https://raw.githubusercontent.com/aten131012-dot/Bh/refs/heads/main/NEXORA_MEEN_Thai_Cat.lua.txt",
     [124216119978534] = "https://raw.githubusercontent.com/aten131012-dot/NEXORA67/refs/heads/main/nexora_ride_a_pet-1.lua(1).txt",
     [107778070777162] = "https://raw.githubusercontent.com/aten131012-dot/NEXORA67/refs/heads/main/NEXORA_Cosmic_Blue.lua.txt",
+    [12355337193]  = "https://raw.githubusercontent.com/aten131012-dot/NEXORA67/refs/heads/main/NEXPRA_MVSD_Thai.lua",
     -- ถ้ามีแมพอื่นๆ เพิ่ม สามารถใส่ต่อตรงนี้ได้เลย
 }
 
